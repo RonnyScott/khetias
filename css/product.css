@@ -1,0 +1,19 @@
+.navigation{
+    display: block;
+    width: 100%;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.product{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.product img{
+    height: 4px;
+    width: 3px;
+    object-fit: contain;
+}
